@@ -32,7 +32,7 @@ const corsOption = {
     optionsSuccessStatus: 204
 };
 
-app.use(cors(corsOption));
+app.use(cors());
 
 
 app.use(bodyParser.json());
